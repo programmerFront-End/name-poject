@@ -1,0 +1,29 @@
+#MainComponentsInform {
+	margin-top: 2pc;
+	.MainComponentsInform {
+		display: flex;
+		justify-content: space-between;
+		.MainComponentsInformFirst {
+			width: 430px;
+			height: 90px;
+			border: solid 1px rgb(255, 255, 255);
+			background: none;
+			border-radius: 10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 7px;
+			padding: 15px;
+			width: 351px;
+			height: 52px;
+			font-size: 18px;
+			font-weight: 600;
+			font-family: Open Sans;
+			color: rgb(255, 255, 255);
+			img {
+				width: 47px;
+				height: 47px;
+			}
+		}
+	}
+}

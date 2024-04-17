@@ -1,0 +1,85 @@
+#MainComponentsProducts {
+	margin-top: 5pc;
+	.MainComponentsProducts {
+		.MainComponentsProductsCards {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			gap: 20px;
+			.MainComponentsProductsCard {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				padding: 10px;
+				background: rgb(255, 255, 255);
+				width: 261px;
+				height: 385px;
+				border-radius: 10px;
+				.MainComponentsProductsCardImg {
+					display: flex;
+					justify-content: center;
+					align-items: start;
+					img {
+						width: 220px;
+						height: 250px;
+					}
+					.heart {
+						border: none;
+						font-size: 20px;
+					}
+				}
+				.MainComponentsProductsCardInform {
+					display: flex;
+					flex-direction: column;
+					gap: 7px;
+					h3 {
+						font-family: Open Sans;
+						font-size: 18px;
+						font-weight: 600;
+					}
+					.MainComponentsProductsCardInformPrice {
+						display: flex;
+						justify-content: space-between;
+						font-family: Open Sans;
+						.secondPrice {
+							color: rgb(123, 118, 118);
+						}
+					}
+					.MainComponentsProductsCardInformEvaluation {
+						display: flex;
+						gap: 5px;
+						.star {
+							font-size: 20px;
+						}
+					}
+					button {
+						width: 205px;
+						height: 44px;
+						border-radius: 10px;
+						background: linear-gradient(
+							90deg,
+							rgb(111, 125, 255),
+							rgb(127, 14, 217) 100%
+						);
+						color: white;
+						font-family: Open Sans;
+						font-size: 600;
+						font-size: 17px;
+					}
+					.addToInBasket {
+						border: none;
+					}
+					.basket {
+						background: none;
+						color: black;
+						border-color: linear-gradient(
+							90deg,
+							rgb(111, 125, 255),
+							rgb(127, 14, 217) 100%
+						);
+					}
+				}
+			}
+		}
+	}
+}
