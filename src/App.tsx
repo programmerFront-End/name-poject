@@ -1,16 +1,16 @@
-import "./App.css";
-import HeaderMainComponents from "./components/MainComponents/HeaderMainComponents/HeaderMainComponents";
-import HeaderMainComponentsSecend from "./components/MainComponents/HeaderMainComponentsSecend/HeaderMainComponentsSecend";
-import MainComponentsBlock from "./components/MainComponents/MainComponentsBlock/MainComponentsBlock";
+import './App.css'
+import MainComoponentsReportCom from './components/MainComponents/MainComoponentsReportCom/MainComoponentsReportCom'
+import MainComponentsheader2 from './components/MainComponents/MainComponentsheader2/MainComponentsheader2'
+import MainComponentsidtovar from './components/MainComponents/MainComponentsidtovar/MainComponentsidtovar'
 
 function App() {
-  return (
-    <div>
-      <HeaderMainComponents />
-      <HeaderMainComponentsSecend />
-      <MainComponentsBlock />
-    </div>
-  );
+	return (
+		<div>
+			<MainComoponentsReportCom />
+			<MainComponentsheader2 />
+			<MainComponentsidtovar/>
+		</div>
+	)
 }
 
-export default App;
+export default App
