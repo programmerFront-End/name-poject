@@ -1,0 +1,49 @@
+#Header {
+	background: white;
+	padding: 10px 0;
+	.header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		button {
+			color: rgb(102, 64, 218);
+			background: transparent;
+			border: none;
+			font-size: 28px;
+		}
+		.Administration {
+			display: flex;
+			align-items: center;
+			gap: 2pc;
+			.Admin {
+				display: flex;
+				flex-direction: column;
+
+				h3 {
+					color: rgb(7, 32, 70);
+					font-family: Open Sans;
+					font-size: 15.87px;
+					font-weight: 700;
+					line-height: 22px;
+					letter-spacing: 0%;
+					text-align: left;
+					text-transform: uppercase;
+				}
+				p {
+					color: rgb(133, 141, 155);
+					font-family: Open Sans;
+					font-size: 12px;
+					font-weight: 700;
+					line-height: 16px;
+					letter-spacing: 0%;
+					text-align: left;
+					text-transform: uppercase;
+				}
+			}
+			img {
+				border-radius: 34px;
+				background: url(2021Men_Cute_smile_on_the_face_of_a_stylish_man_153385_);
+			}
+		}
+	}
+}

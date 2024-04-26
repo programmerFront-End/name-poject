@@ -1,16 +1,12 @@
 import React from 'react'
-import MainComponentsAnimation from '../components/MainComponents/MainComponentsAnimation/MainComponentsAnimation'
-import MainComponentsInform from '../components/MainComponents/MainComponentsInform/MainComponentsInform'
-import MainComponentsProducts from '../components/MainComponents/MainComponentsProducts/MainComponentsProducts'
-import MainComponentsProductsSecond from '../components/MainComponents/MainComponentsProductsSecond/MainComponentsProducts'
+import MainComponentsHeader from '../components/MainComponents/MainComponentsHeader/MainComponentsHeader'
+import MainComponentsAddition from '../components/MainComponents/MainComponentsAddition/MainComponentsAddition'
 
 const MainComponentsPage: React.FC = () => {
 	return (
 		<div>
-			<MainComponentsInform />
-			<MainComponentsProducts />
-			<MainComponentsAnimation />
-			<MainComponentsProductsSecond />
+			<MainComponentsHeader/>
+			<MainComponentsAddition/>
 		</div>
 	)
 }

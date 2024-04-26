@@ -1,0 +1,294 @@
+#Add {
+	.container {
+		.add {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			.MainComAddPhotoGeneral {
+				h2 {
+					margin-top: 2pc;
+					color: rgb(255, 255, 255);
+					font-family: Open Sans;
+					font-size: 26px;
+					font-weight: 700;
+					line-height: 45px;
+					letter-spacing: 0%;
+				}
+				.MainComAddPhotos {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					.MainComAddPhoto {
+						margin-top: 2pc;
+						display: flex;
+						align-items: center;
+						.next {
+							font-size: 38px;
+						}
+						button {
+							left: 202.69px;
+							top: 4426.21px;
+							transform: rotate(180deg);
+							background: transparent;
+							font-size: 32px;
+							border: none;
+							background: url(right-arrow);
+							opacity: 0.32;
+							color: gray;
+						}
+						.MainComAddPhotoArea {
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							width: 350px;
+							height: 470px;
+							left: 214.13px;
+							color: white;
+							top: 4064.88px;
+							border-radius: 27.77px;
+							background: rgba(24, 34, 101, 0.486);
+							.file-input-container {
+								position: relative;
+							}
+
+							.file-input {
+								position: absolute;
+								left: -9999px;
+							}
+
+							.file-input-label {
+								display: inline-block;
+								padding: 8px 12px;
+								border-radius: 5px;
+								color: white;
+								cursor: pointer;
+								span {
+									color: white;
+								}
+							}
+
+							.plus-sign {
+								margin-left: 5px;
+								font-weight: bold;
+								color: green; /* Цвет плюса */
+							}
+							.uploaded-images {
+								img {
+									width: 350px;
+									height: 470px;
+									border-radius: 27.77px;
+								}
+							}
+						}
+					}
+					.MainComAddPhotoSecond {
+						margin-top: 1pc;
+						display: flex;
+						gap: 2pc;
+						.addPhotoFirst {
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							width: 100px;
+							height: 120px;
+							left: 219.02px;
+							top: 4870.75px;
+							border-radius: 24.86px;
+							background: rgba(255, 255, 255, 0.2);
+							input {
+								width: 80px;
+							}
+							.file-input-container1 {
+								position: relative;
+							}
+
+							.file-input1 {
+								position: absolute;
+								left: -9999px;
+							}
+
+							.file-input-label1 {
+								display: inline-block;
+								padding: 8px 12px;
+								border-radius: 5px;
+								color: white;
+								cursor: pointer;
+								span {
+									color: white;
+									font-size: 35px;
+								}
+							}
+
+							.plus-sign {
+								margin-left: 5px;
+								font-weight: bold;
+								color: green;
+							}
+							.uploaded-images {
+								img {
+									width: 100px;
+									height: 120px;
+									border-radius: 24.86px;
+								}
+						}
+						}
+					}
+				}
+			}
+			.MainComAddTexts {
+				display: flex;
+				flex-direction: column;
+				gap: 1pc;
+				.MainComAddSelect {
+					h3 {
+						color: rgb(255, 255, 255);
+						font-family: Open Sans;
+						font-size: 16px;
+						font-weight: 600;
+						line-height: 34px;
+						letter-spacing: 0%;
+						text-align: left;
+					}
+					input {
+						width: 353px;
+
+						height: 27px;
+						left: 980.49px;
+						right: 117.18px;
+						top: 4125.06px;
+						bottom: 1212.14px;
+						border-radius: 10.47px;
+						background: rgb(255, 255, 255);
+						outline: none;
+					}
+					select {
+						width: 375px;
+
+						height: 40px;
+						left: 980.49px;
+						right: 117.18px;
+						top: 4125.06px;
+						bottom: 1212.14px;
+						border-radius: 10.47px;
+						background: rgb(255, 255, 255);
+						outline: none;
+					}
+				}
+				.MainComAddPrice {
+					display: flex;
+					gap: 2pc;
+					h3 {
+						color: rgb(255, 255, 255);
+						font-family: Open Sans;
+						font-size: 16px;
+						font-weight: 600;
+						line-height: 34px;
+						letter-spacing: 0%;
+						text-align: left;
+					}
+					input {
+						width: 148px;
+
+						height: 27px;
+						left: 980.49px;
+						right: 117.18px;
+						top: 4125.06px;
+						bottom: 1212.14px;
+						border-radius: 10.47px;
+						background: rgb(255, 255, 255);
+						outline: none;
+					}
+					select {
+						width: 173px;
+						height: 40px;
+						left: 980.49px;
+						right: 117.18px;
+						top: 4125.06px;
+						bottom: 1212.14px;
+						border-radius: 10.47px;
+						background: rgb(255, 255, 255);
+						outline: none;
+					}
+				}
+				.MainComAddSize {
+					h3 {
+						color: rgb(255, 255, 255);
+						font-family: Open Sans;
+						font-size: 16px;
+						font-weight: 600;
+						line-height: 34px;
+						letter-spacing: 0%;
+						text-align: left;
+					}
+
+					.MainComAddSizes {
+						display: flex;
+						gap: 10px;
+					}
+
+					.MainComAddSizes button {
+						width: 45px;
+						height: 45px;
+						border-radius: 10.47px;
+						background: rgb(255, 255, 255);
+						transition: background-color 0.5s ease;
+						border: none;
+						cursor: pointer;
+						color: rgb(128, 118, 118);
+						font-size: 16px;
+						font-weight: 600;
+						line-height: 30px;
+						letter-spacing: 0%;
+					}
+
+					.MainComAddSizes button.selected {
+						background-color: rgb(144, 120, 210);
+						color: rgb(255, 255, 255);
+					}
+				}
+				.MainComAddDes {
+					.texts {
+						display: flex;
+						justify-content: space-between;
+						h3 {
+							color: rgb(255, 255, 255);
+							font-family: Open Sans;
+							font-size: 16px;
+							font-weight: 600;
+							line-height: 34px;
+							letter-spacing: 0%;
+							text-align: left;
+						}
+					}
+					textarea {
+						width: 373px;
+						height: 80px;
+						left: 980.49px;
+						right: 117.18px;
+						top: 4125.06px;
+						bottom: 1212.14px;
+						border-radius: 10.47px;
+						background: rgb(255, 255, 255);
+						outline: none;
+					}
+				}
+				.MainComAddCreate {
+					width: 375px;
+					height: 50px;
+					left: 985.72px;
+					top: 4945.32px;
+					border-radius: 15px;
+					background: linear-gradient(
+						95.71deg,
+						rgb(111, 125, 255) 1.453%,
+						rgb(127, 14, 217) 80.67%
+					);
+					color: rgb(255, 255, 255);
+					font-size: 18px;
+					font-weight: 500;
+					line-height: 32px;
+				}
+			}
+		}
+	}
+}
