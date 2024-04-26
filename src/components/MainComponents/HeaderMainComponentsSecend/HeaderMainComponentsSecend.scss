@@ -61,14 +61,45 @@
           rgb(127, 14, 217) 80.609%
         );
       }
-      .bottomHeaderBlockModal {
-        width: 256px;
-        display: flex;
-        top: 4pc;
-        height: 400px;
-        position: absolute;
-        background-color: white;
-        border-radius: 20px;
+      .bottomHeaderSubcategory {
+        .bottomHeaderBlockModal {
+          align-items: flex-start;
+          justify-content: center;
+          text-align: left;
+          flex-direction: column;
+          width: 350px;
+          height: 400px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          display: flex;
+          top: 4pc;
+          position: absolute;
+          background-color: white;
+          right: 0;
+          h1 {
+            color: rgb(1, 22, 62);
+            text-align: left;
+            font-family: Open Sans;
+            width: 100%;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 25px;
+            letter-spacing: 0%;
+            padding: 10px 0 10px 5pc;
+            text-align: left;
+          }
+          h1:hover {
+            padding: 10px 0 10px 5pc;
+            width: 270px;
+            background: rgba(101, 104, 179, 0.466);
+          }
+        }
+        .bottomHeaderBlockModal2 {
+          width: 480px;
+          height: 1306px;
+          background: rgb(101, 104, 179);
+          z-index: 99;
+        }
       }
     }
   }

@@ -1,0 +1,75 @@
+#headerSecondComponents {
+  height: 91.26px;
+  background: rgb(255, 255, 255);
+  .headerSecondComponents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .headerSecondComponentsNav {
+      h1 {
+        color: rgb(21, 48, 187);
+        font-family: Open Sans;
+        font-size: 25px;
+        font-weight: 800;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        padding-top: 15px;
+        cursor: pointer;
+        span {
+          color: rgb(21, 48, 187);
+          font-family: Saira Stencil One;
+          font-size: 25px;
+          font-weight: 400;
+          letter-spacing: 0%;
+          text-align: left;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
+      }
+      h2 {
+        background: linear-gradient(
+          95.71deg,
+          rgb(111, 125, 255),
+          rgb(127, 14, 217)
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-family: Open Sans;
+        font-size: 30px;
+        font-weight: 800;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+      }
+    }
+    .headerSecondComponentsNavigate {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1000px;
+      a {
+        color: rgb(7, 32, 70);
+        font-family: Open Sans;
+        font-size: 15.87px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+      }
+      a:hover {
+        color: rgb(57, 14, 230);
+        font-family: Open Sans;
+        font-size: 15.87px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

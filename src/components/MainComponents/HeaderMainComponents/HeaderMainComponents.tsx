@@ -1,11 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import { IconButton } from "@mui/material";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
 import "./HeaderMainComponents.scss";
+import { Link } from "react-router-dom";
 
 const HeaderMainComponents: React.FC = () => {
+  const [modalHeaderCategoria, setModalHeaderCategoria] =
+    useState<boolean>(false);
+    
+
+  function handleModalHeader() {
+    if (modalHeaderCategoria) {
+      setModalHeaderCategoria(false);
+    } else {
+      setModalHeaderCategoria(true);
+    }
+  }
+
   return (
     <header id="headerMain">
       <div className="container">
@@ -32,11 +45,23 @@ const HeaderMainComponents: React.FC = () => {
             </div>
           </div>
           <div className="headerMainIcons">
-            <div className="headerMainUser">
-              <IconButton>
-                <PersonOutlinedIcon />
-              </IconButton>
+            <div className="mainBlockSingInSingUp">
+              <div className="headerMainUser">
+                <IconButton onClick={handleModalHeader}>
+                  <PersonOutlinedIcon />
+                </IconButton>
+              </div>
+              <div
+                style={{
+                  display: modalHeaderCategoria ? "flex" : "none",
+                }}
+                className="headerMainIconsUser"
+              >
+               <Link to="/register"> <h4>Зарегистрироваться</h4></Link>
+               <Link to="/tocomin"><h4>Войти </h4></Link>
+              </div>
             </div>
+
             <div className="headerMainBag">
               <h5>2</h5>
               <IconButton>

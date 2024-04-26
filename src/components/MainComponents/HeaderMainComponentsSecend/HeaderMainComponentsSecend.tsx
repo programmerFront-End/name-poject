@@ -38,12 +38,26 @@ const HeaderMainComponentsSecend: React.FC = () => {
                 <KeyboardArrowDownOutlinedIcon />
               )}
             </h4>
-            <div
-              style={{
-                display: modalHeaderCategoria ? "flex" : "none",
-              }}
-              className="bottomHeaderBlockModal"
-            ></div>
+            <div className="bottomHeaderSubcategory">
+              <div
+                style={{
+                  zIndex: "99",
+                  display: modalHeaderCategoria ? "flex" : "none",
+                }}
+                className="bottomHeaderBlockModal"
+              > 
+                <h1>Женщинам</h1>
+                <h1>Мужчинам</h1>
+                <h1>Детям</h1>
+                <h1>Обувь</h1>
+                <h1>Красота</h1>
+                <h1>Дом</h1>
+                <h1>Аксессуары</h1>
+                <h1>Электроника</h1>
+                <h1>Продукты</h1>
+              </div>
+            </div>
+              <div className="bottomHeaderBlockModal2"></div>
           </div>
         </div>
       </div>

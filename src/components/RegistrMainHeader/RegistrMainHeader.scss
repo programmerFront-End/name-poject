@@ -1,0 +1,135 @@
+#registerMainHeader {
+  .registerMainHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 118vh;
+    .registerMainNav {
+      width: 698.43px;
+      height: 930.75px;
+      border-radius: 10px;
+      background: rgb(236, 243, 255);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      .registerMainNavText {
+        h1 {
+          color: rgb(0, 0, 0);
+          font-family: Open Sans;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 33px;
+          letter-spacing: 0%;
+          text-align: center;
+          text-transform: uppercase;
+        }
+      }
+      .registerMainButton {
+        width: 422.64px;
+        height: 91.97px;
+        box-sizing: border-box;
+        border: 2px solid rgb(7, 32, 70);
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        border-radius: 10px;
+        button {
+          border: 0;
+          color: rgb(7, 32, 70);
+          font-family: Open Sans;
+          font-size: 17.52px;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: 0%;
+          text-align: left;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
+      }
+      input {
+        width: 422.64px;
+        height: 91.97px;
+        box-sizing: border-box;
+        border: 2.19px solid rgb(7, 32, 70);
+        border-radius: 10px;
+        color: rgb(105, 115, 131);
+        font-family: Open Sans;
+        font-size: 17.52px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+      }
+      a {
+        color: rgb(7, 32, 70);
+        font-family: Open Sans;
+        font-size: 17.52px;
+        font-weight: 700;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+      .singin {
+        color: rgb(255, 255, 255);
+        font-family: Open Sans;
+        font-size: 17.52px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        width: 422.64px;
+        height: 91.97px;
+        box-sizing: border-box;
+        border: 2.19px solid rgb(7, 32, 70);
+        border-radius: 10px;
+        background: rgb(7, 32, 70);
+        text-align: center;
+      }
+      h2 {
+        color: rgb(113, 109, 109);
+        font-family: Open Sans;
+        font-size: 16.96px;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .registerWithGoogle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2pc;
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 1283px) {
+  #registerMainHeader {
+    .registerMainHeader {
+      .registerMainNav {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 705px) {
+  #registerMainHeader {
+    .registerMainHeader {
+      .registerMainNav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+      }
+    }
+  }
+}

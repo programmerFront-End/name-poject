@@ -105,10 +105,28 @@
     }
 
     .headerMainIcons {
+
       display: flex;
       align-items: center;
       justify-content: space-between;
       width: 150px;
+      .mainBlockSingInSingUp {
+        position: relative;
+        .headerMainIconsUser {
+          position: absolute;
+          width: 180px;
+          z-index: 99;
+          height: 60px;
+          right: 0;
+          padding: 10px 0px 10px 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          gap: 20px;
+          background: white;
+
+        }
+      }
       .headerMainUser {
         button {
           width: 53px;
